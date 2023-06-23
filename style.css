@@ -255,6 +255,57 @@ nav {
     height: 50px;
 }
 
+/* 
+---------------------
+    Contact Style
+--------------------
+*/
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input input,
+textarea {
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-weight: 700;
+}
+
+.contact-input input[type=submit] {
+    background-color: #FF900E;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.address-area h2 {
+    padding: 20px 0;
+
+}
+
+.social-link li {
+    margin-right: 20px;
+}
+
 /* -------------
    Footer Style
    -------------
