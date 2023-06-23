@@ -1,0 +1,266 @@
+/* -----------------
+    Deafult Style
+   -----------------  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
+    color: grey;
+    line-height: 25px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------
+    Haeder Style 
+   -----------
+*/
+header {
+    background-color: #FFF7EE;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.menu li {
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header-main {
+    padding: 30px 0;
+}
+
+.header-details {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header-details p {
+    padding: 20px 0;
+}
+
+.button {
+    padding: 20px 0;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: #FF900E;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+/* --------------------
+   Features Style  
+   --------------------
+*/
+.features-area {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.features-info {
+    width: 500px;
+}
+
+#heading-grey {
+    color: grey;
+    font-weight: 400;
+}
+
+.branding-text {
+    color: #FF900E;
+}
+
+.features-info p {
+    padding: 30px 0;
+}
+
+/* --------------------
+    Architect Features Style
+   --------------------
+*/
+.architect-feature {
+    display: flex;
+    gap: 80px;
+}
+
+.architect-feature-details {
+    width: 500px;
+}
+
+.architect-heading {
+    border-left: 4px solid #FF900E;
+    padding: 10px;
+}
+
+.architect-feature-details>p {
+    padding-top: 10px;
+}
+
+.feature-box {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-box p {
+    padding: 10px 0;
+}
+
+.architecture-fature-img {
+    height: 0%;
+}
+
+.experi-btn {
+    width: 150px;
+    height: 100px;
+    background-color: #FF900E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: -55px;
+    left: -50px;
+    border-radius: 5px;
+}
+
+/* --------------
+   Facts Style
+   --------------
+*/
+.facts-heading {
+    width: 400px;
+}
+
+.facts-heading p {
+    padding: 20px 0;
+}
+
+.facts-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.fact-box {
+    border: 1px solid #FF900E;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.fact-box:hover {
+    box-shadow: 0 0 30px 0px #FF900E;
+    border: none;
+
+}
+
+.fact-img {
+    display: flex;
+    justify-content: center;
+}
+
+.fact-img img {
+    width: 30px;
+    height: 30px;
+}
+
+.fact-details {
+    padding: 10px 0;
+}
+
+/* -----------
+   Sponsors Style
+   -----------
+*/
+.sponsors-title {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsors-title p {
+    padding: 20px;
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.sponsor-company {
+    width: 120px;
+    height: 50px;
+}
+
+/* -------------
+   Footer Style
+   -------------
+*/
+footer p {
+    background-color: #FFF7EE;
+    padding: 20px;
+    text-align: center;
+}
