@@ -12,15 +12,15 @@ section {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2em;
 }
 
 p {
-    font-size: 14px;
+    font-size: .8em;
     color: grey;
     line-height: 25px;
 }
@@ -314,4 +314,48 @@ footer p {
     background-color: #FFF7EE;
     padding: 20px;
     text-align: center;
+}
+
+/* 
+----------------------
+Style For Mobile Version
+----------------------
+*/
+
+@media screen and (max-width: 576px) {
+    .hide {
+        display: none;
+    }
+
+    nav,
+    .menu,
+    .features-area,
+    .architect-feature,
+    .facts-container,
+    .sponsors-container,
+    .contact-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .sponsors-container {
+        align-items: center;
+    }
+
+    .features-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container,
+    .header-details,
+    .features-info,
+    .architect-feature-details,
+    .facts-heading,
+    .sponsors-title {
+        width: 100%;
+    }
+
+    .experi-btn {
+        left: 0;
+    }
 }
